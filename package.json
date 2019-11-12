@@ -1,0 +1,20 @@
+{
+  "name": "game-of-life-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "yarn test --watchAll",
+    "format": "prettier --parser typescript",
+    "format:check": "yarn format --check \"src/**/*.{ts,tsx}\"",
+    "format:write": "yarn format --write \"src/**/*.{ts,tsx}\""
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.22",
+    "jest": "^24.9.0",
+    "prettier": "^1.19.1",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.7.2"
+  }
+}
